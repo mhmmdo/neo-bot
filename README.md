@@ -30,7 +30,7 @@ To run the bot, execute the following command:
 
 ## Features
 
-prefix is "!:
+prefix is *"!"*
 
 |	Command 	  |			Description			   |
 |:---------------:|:------------------------------:|
@@ -40,12 +40,12 @@ prefix is "!:
 
 Execute additional features. (Check the [example](https://github.com/krypton-byte/neonize/blob/master/examples/basic.py) for more)
 
-##Connect with Me
+## Connect with Me
 
 To connect with me:
 
-[![Instagram](https://img.shields.io/badge/Instagram-mhmmdoo_-orange?style=flat-square&logo=instagram)](https://www.instagram.com/mhmmdoo_/)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-MuhammadRidho-blue?style=flat-square&logo=linkedin)](link_linkedin_anda)
+[![Instagram](https://img.shields.io/badge/Instagram-Edoo's-orange?style=flat-square&logo=instagram)](https://www.instagram.com/mhmmdoo_/)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Edoo's-blue?style=flat-square&logo=linkedin)](link_linkedin_anda)
 
 ## Thanks to
 
