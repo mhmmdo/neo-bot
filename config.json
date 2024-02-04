@@ -1,0 +1,10 @@
+{
+  "ownerNumber": "your owner number",
+  "phone": "your number phone whatsapp",
+  "prefix": "!",
+  "waterMark":{
+  	"author": "author_name",
+  	"packName": "pack_name"
+  }
+}
+
