@@ -56,14 +56,29 @@ def on_message(client: NewClient, message: MessageEv):
     handler(client, message)
 
 def handler(client: NewClient, message: MessageEv):
-    text = message.Message.conversation or message.Message.extendedTextMessage.text
-    chat = message.Info.MessageSource.Chat
-    args = message.__str__()
-    log.info('Someone Sending Msg : ', args)
-    log.info('Log Chat : ', chat)
+	msg = message.Info # .__str__()
+    # text = msg.Message.conversation or message.Message.extendedTextMessage.text
+    from = msg.MessageSource.Chat
+    msg_message_keys = list(msg['message'].keys())
+    type = msg_message_keys[0]
+    chats = ""
+	if type == 'conversation' and 'conversation' in msg['Message']:
+	    chats = msg['message']['conversation']
+	elif type == 'imageMessage' and 'imageMessage' in msg['Message'] and 'caption' in msg['Message']['imageMessage']:
+	    chats = msg['Message']['imageMessage']['caption']
+	elif type == 'documentMessage' and 'documentMessage' in msg['Message'] and 'caption' in msg['Message']['documentMessage']:
+	    chats = msg['Message']['documentMessage']['caption']
+	elif type == 'videoMessage' and 'videoMessage' in msg['Message'] and 'caption' in msg['Message']['videoMessage']:
+	    chats = msg['Message']['videoMessage']['caption']
+	elif type == 'extendedTextMessage' and 'extendedTextMessage' in msg['Message'] and 'text' in msg['Message']['extendedTextMessage']:
+	    chats = msg['Message']['extendedTextMessage']['text']
+    isGroup = msg.isGroup
+    log.info(msg.Chat.User)
+    log.info(chats)
+    # log.info("")
     match text:
     	case "ping":
-    		client.send_message(chat, args)
+    		client.send_message(from, "Pong")
 
 
 @client.event(PairStatusEv)
