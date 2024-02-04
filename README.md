@@ -26,6 +26,7 @@ and
 > pip install -r requirements.txt
 ```
 
+<<<<<<< HEAD
 ## Edit Config
 ```bash
 {
@@ -39,6 +40,8 @@ and
 }
 ```
 
+=======
+>>>>>>> b0000e3afed7bdf2f23c08346cc6dae78b2f85a0
 ## Run
 To run the bot, execute the following command:
 
