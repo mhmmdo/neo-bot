@@ -58,8 +58,13 @@ def on_message(client: NewClient, message: MessageEv):
 def handler(client: NewClient, message: MessageEv):
     text = message.Message.conversation or message.Message.extendedTextMessage.text
     chat = message.Info.MessageSource.Chat
-    log.info(text)
-    log.info(chat)
+    args = message.__str__()
+    log.info('Someone Sending Msg : ', text)
+    log.info('Log Chat : ', chat)
+    match text:
+    	case "ping":
+    		client.send_message(chat, args)
+
 
 @client.event(PairStatusEv)
 def PairStatusMessage(_: NewClient, message: PairStatusEv):
