@@ -3,29 +3,40 @@
 </p>
 
 ## <p align="center">Neo Python Bot WhatsApp</p>
+<p align="center">
+<a href="https://github.com/mhmmdoo_"><img title="Author" src="https://img.shields.io/badge/Author-Edoo-red.svg?style=for-the-badge&logo=github"></a>
+</p>
 
 ## A simple Python bot for WhatsApp using the [Neonize](https://github.com/krypton-byte/neonize) library.
+
+## Clone this project
+
+```bash
+> git clone https://github.com/mhmmdo/neo-bot
+```
 
 ## Installation
 
 ```bash
-pip install -r requirements.txt
+> pip install -r requirements.txt
 ```
 
 ## Run
 To run the bot, execute the following command:
 
 ```bash
-python main.py
+> python main.py
 ```
 
-## Commands
+## Features
 
-```markdown
-- `!menu`: Display the menu.
-- `!sticker`: Convert media (img/vid/gif) to sticker.
-- `!ping`: Check responsiveness.
-```
+prefix is "!:
+
+|	Command 	  |			Description			   |
+|:---------------:|:------------------------------:|
+|!menu 			  | Display the menu.|
+|!sticker 		  | Convert media (img/vid/gif) to sticker.|
+|!ping 			  | Check responsiveness.|
 
 Execute additional features. (Check the [example](https://github.com/krypton-byte/neonize/blob/master/examples/basic.py) for more)
 
