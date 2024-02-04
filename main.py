@@ -64,3 +64,5 @@ def handler(client: NewClient, message: MessageEv):
 @client.event(PairStatusEv)
 def PairStatusMessage(_: NewClient, message: PairStatusEv):
     log.info(f"logged as {message.ID.User}")
+
+client.connect()
