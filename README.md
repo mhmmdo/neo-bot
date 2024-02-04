@@ -38,7 +38,7 @@ prefix is "!"
 |!sticker 		  | Convert media (img/vid/gif) to sticker.|
 |!ping 			  | Check responsiveness.|
 
-Execute additional features. (Check the [example](https://github.com/krypton-byte/neonize/blob/master/examples/basic.py) for more)
+You can add your own features. (Check the [example](https://github.com/krypton-byte/neonize/blob/master/examples/basic.py)
 
 ## Connect with Me
 
