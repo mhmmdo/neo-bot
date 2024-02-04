@@ -87,10 +87,8 @@ def handler(client: NewClient, message: MessageEv):
     if chats.startswith(prefix):
         args = chats[len(prefix):].split(' ')
         command = args[0].lower() if args else ''
-
-        # is_group = message.isGroup
-        log.info(message.__str__())
-        log.info(chats)
+        
+        # log.info(chats)
         match command:
             case "menu":
                 txt = "Neo Bot WhatsApp\n\n"
