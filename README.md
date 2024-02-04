@@ -19,7 +19,7 @@
 
 You can run on termux, vps, and rdp
 
-You need install python
+Firstly you need install python
 
 and 
 ```bash
