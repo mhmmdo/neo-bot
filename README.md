@@ -17,6 +17,11 @@
 
 ## Installation
 
+You can run on termux, vps, and rdp
+
+You need install python
+
+and 
 ```bash
 > pip install -r requirements.txt
 ```
