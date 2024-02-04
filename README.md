@@ -7,7 +7,7 @@
 <a href="https://github.com/mhmmdoo_"><img title="Author" src="https://img.shields.io/badge/Author-Edoo-red.svg?style=for-the-badge&logo=github"></a>
 </p>
 
-## A simple Python bot for WhatsApp using the [Neonize](https://github.com/krypton-byte/neonize) library.
+## A simple Python Bot WhatsApp using the [Neonize](https://github.com/krypton-byte/neonize) library.
 
 ## Clone this project
 
@@ -30,7 +30,7 @@ To run the bot, execute the following command:
 
 ## Features
 
-prefix is *"!"*
+prefix is "!"
 
 |	Command 	  |			Description			   |
 |:---------------:|:------------------------------:|
@@ -44,7 +44,6 @@ Execute additional features. (Check the [example](https://github.com/krypton-byt
 
 To connect with me:
 
-[![Instagram](https://img.shields.io/badge/Instagram-Edoo's-orange?style=flat-square&logo=instagram)](https://www.instagram.com/mhmmdoo_/)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Edoo's-blue?style=flat-square&logo=linkedin)](link_linkedin_anda)
 
 ## Thanks to
