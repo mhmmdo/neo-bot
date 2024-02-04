@@ -48,6 +48,6 @@ To connect with me:
 
 ## Thanks to
 
-Special thanks to [Krypton Bite](https://github.com/krypton-byte) for helped me.
+Special thanks to [Krypton Byte](https://github.com/krypton-byte) for helped me.
 
 This project is licensed under the Apache-2.0 License. See the LICENSE file for more information.
