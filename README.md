@@ -43,11 +43,11 @@ You can add your own features. (Check the [example](https://github.com/krypton-b
 ## Connect with Me
 
 To connect with me:
-
+[![Instagram](https://img.shields.io/badge/Instagram-Edoo's-orange?style=flat-square&logo=instagram)](https://www.instagram.com/mhmmdoo_/)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Edoo's-blue?style=flat-square&logo=linkedin)](link_linkedin_anda)
 
 ## Thanks to
 
 Special thanks to [Krypton Bite](https://github.com/krypton-byte) for helped me.
 
-This project is licensed under the Apache-2.0 License. See the LICENSE file for more information.
+This project is licensed under the Apache-2.0 License. See the [LICENSE](LICENSE) file for more information.
