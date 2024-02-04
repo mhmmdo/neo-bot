@@ -59,7 +59,7 @@ def handler(client: NewClient, message: MessageEv):
     text = message.Message.conversation or message.Message.extendedTextMessage.text
     chat = message.Info.MessageSource.Chat
     args = message.__str__()
-    log.info('Someone Sending Msg : ', text)
+    log.info('Someone Sending Msg : ', args)
     log.info('Log Chat : ', chat)
     match text:
     	case "ping":
