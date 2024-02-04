@@ -30,7 +30,7 @@ and
 ```bash
 {
   "ownerNumber": "your owner number",
-  "phone": "your number phone whatsapp",
+  "phone": "your bot number phone whatsapp",
   "prefix": "!",
   "waterMark":{
   	"author": "author_name",
@@ -42,9 +42,21 @@ and
 ## Run
 To run the bot, execute the following command:
 
+**Open** your WhatsApp, Click **Link Device** and Click **Link with telphone number**
+
+and
 ```bash
 > python main.py
 ```
+
+Look at the **code** in the log
+
+and
+```bash
+> input code in you WhatsApp
+```
+
+Before you run, edit phone number in [Config](config.json) to connect you Bot on WhatsApp
 
 ## Features
 
